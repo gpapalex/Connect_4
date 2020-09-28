@@ -1,0 +1,22 @@
+import pygame
+
+WIDTH, HEIGHT = 1000, 1000
+PADDING = 15
+ROWS, COLS = 6, 7
+SQUARE_SIZE = HEIGHT //COLS
+width_draw = SQUARE_SIZE * (COLS + 1)
+height_draw = SQUARE_SIZE * ROWS
+size = (width_draw, height_draw)
+RADIUS = SQUARE_SIZE // 2 - PADDING
+
+
+# LIST OF RGB VALUES
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLACK = (0, 0, 0,)
+PURPLE = (128, 0, 128)
+BLUE = (0, 0, 255)
+WHITE = (255, 255, 255)
+YELLOW_LIGHT = (236, 239, 163)
+YELLOW = (255,255,0)
+rgb_list = [BLACK, WHITE, RED, GREEN, BLUE, PURPLE, YELLOW, YELLOW_LIGHT]
